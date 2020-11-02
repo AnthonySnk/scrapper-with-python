@@ -1,0 +1,4 @@
+Links = $x('//h2/a[@class="globoeconomiaSect"]/@href').map(x=>x.value)
+Title = $x('//div[@class="mb-auto"]/h2/a[@class="globoeconomiaSect"]/text()')
+Summary = $x('//div[@class="lead"]/p/text()')
+Body  = $x('//div[@class="html-content"]/p[not(@class)]/text()')
